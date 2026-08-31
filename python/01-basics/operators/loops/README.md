@@ -21,3 +21,9 @@ output:
 3
 ...
 20
+3.question
+program for equals or notequals
+output:
+Enter first number: 10
+Enter second number: 20
+Numbers are not equal
