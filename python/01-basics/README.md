@@ -26,3 +26,12 @@ output:
 10.5 <class 'float'>
 Hello <class 'str'>
 True <class 'bool'>
+
+
+6.Question
+program for inpu practise
+output:
+Enter your name: Naveen
+Enter your age: 19
+Name: Naveen
+Age: 19
