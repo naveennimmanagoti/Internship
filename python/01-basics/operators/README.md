@@ -45,3 +45,11 @@ Enter first number: 10
 Enter second number: 25
 Enter third number: 15
 Largest: 25
+
+7.Question
+program for simple calculator
+output:
+Enter first number: 10
+Enter second number: 5
+Enter operator (+, -, *, /): *
+Result: 50.0
