@@ -12,3 +12,9 @@ multiple lines with triple quoes '''
 5.5 <class 'float'>
 True <class 'bool'>
 A <class 'str'>
+ 
+ 4.question
+ program for variable scope
+ output:
+ Local: 20
+Global: 10
