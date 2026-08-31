@@ -12,3 +12,10 @@ output:
 Before: 10
 After increment: 11
 After decrement: 10
+
+3.Question
+program for equal numbers
+output:
+Enter first number: 12
+Enter second number: 12
+Both numbers are equal
