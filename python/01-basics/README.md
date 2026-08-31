@@ -5,3 +5,10 @@ output:naveen
 2.program to demonstrate comments
 single linecomment is represented with #
 multiple lines with triple quoes '''
+ 
+ 3.question
+ program for variables
+ output:10 <class 'int'>
+5.5 <class 'float'>
+True <class 'bool'>
+A <class 'str'>
