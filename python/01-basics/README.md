@@ -18,3 +18,11 @@ A <class 'str'>
  output:
  Local: 20
 Global: 10
+
+5.Question
+program for Type checking and dynamic typing
+output:
+10 <class 'int'>
+10.5 <class 'float'>
+Hello <class 'str'>
+True <class 'bool'>
