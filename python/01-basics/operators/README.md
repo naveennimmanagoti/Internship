@@ -19,3 +19,13 @@ output:
 Enter first number: 12
 Enter second number: 12
 Both numbers are equal
+
+3.Question
+program for relational operators
+output:
+Enter first number:10
+Enter secon number:12
+Less than: True
+Less than or equal to: True
+Greater than: False
+Greater than or equal to: False
