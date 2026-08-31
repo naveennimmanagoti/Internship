@@ -20,7 +20,7 @@ Enter first number: 12
 Enter second number: 12
 Both numbers are equal
 
-3.Question
+4.Question
 program for relational operators
 output:
 Enter first number:10
@@ -29,3 +29,11 @@ Less than: True
 Less than or equal to: True
 Greater than: False
 Greater than or equal to: False
+
+5.Question
+program for geatest and smalest number
+output:
+Enter first number: 12
+Enter second number: 20
+Smaller: 12
+Larger: 20
