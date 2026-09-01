@@ -60,3 +60,9 @@ program for prime number
 outout:
 Enter a number: 17
 Prime number
+
+9Question
+progra for palindrome number
+output:
+Enter a number: 121
+Palindrome number
