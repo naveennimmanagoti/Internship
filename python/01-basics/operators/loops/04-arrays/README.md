@@ -21,3 +21,15 @@ Q5 program to remove an element from list
 numbers[10,20,30,40,50]
 Enter element to remove: 30
 Updated list: [10, 20, 40, 50]
+Q6
+program to copy elements from list1 to list 2
+output:
+Original list: [10, 20, 30, 40, 50]
+Copied list: [10, 20, 30, 40, 50]
+Q7
+program for inserting elements into list
+output:
+numbers[10,20,30,40,50]
+Enter index: 2
+Enter value: 25
+Updated list: [10, 20, 25, 30, 40, 50]
