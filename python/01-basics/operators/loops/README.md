@@ -44,3 +44,7 @@ Enter first number: 25
 Enter second number: 48
 Enter third number: 32
 Largest number: 48
+
+6Question
+program for even numbers using while loop
+output:10 12 14 16 18 20
