@@ -54,3 +54,35 @@ program for replace() string
 text = "I like Java"
 output:
 I like Python
+Q11
+program for split string
+text = "Python Java C++"
+output:
+['Python', 'Java', 'C++']
+Q12
+program for type conversion
+num = 100
+output:
+Value: 100
+Type: <class 'str'>
+Q13
+program for lowercase() and uppercase()
+text = "Python Programming"
+output:
+Uppercase: PYTHON PROGRAMMING
+Lowercase: python programming
+Q14
+program for pattern matching re
+output:
+Enter a value: 12345
+Contains only digits
+Q15
+program for vowels and consonents
+output:
+Enter a string: Python
+Vowels: 1
+Consonants: 5
+Q16 program for reverse string
+output:
+Enter a string: Python
+Reversed string: nohtyP
