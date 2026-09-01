@@ -115,4 +115,25 @@ e = ElectricCar()
 
 v.start_engine()
 c.start_engine()
+e.start_engine()class Vehicle:
+    def start_engine(self):
+        print("Vehicle engine starts")
+
+
+class Car(Vehicle):
+    def start_engine(self):
+        print("Car engine starts")
+
+
+class ElectricCar(Car):
+    def start_engine(self):
+        print("Electric car starts silently")
+
+
+v = Vehicle()
+c = Car()
+e = ElectricCar()
+
+v.start_engine()
+c.start_engine()
 e.start_engine()
