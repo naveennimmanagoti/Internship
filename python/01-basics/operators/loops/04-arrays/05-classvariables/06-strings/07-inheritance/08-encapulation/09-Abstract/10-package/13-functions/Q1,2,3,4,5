@@ -1,0 +1,38 @@
+'''def add(a, b):
+    return a + b
+
+result = add(10, 20)
+
+print("Sum:", result)'''
+#program for defaultparmeters
+'''def greet(name, message="Hello"):
+    print(message, name)
+
+greet("Naveen")
+greet("Rahul", "Good Morning")'''
+#program for key arguments
+'''def details(name, age, city):
+    print("Name:", name)
+    print("Age:", age)
+    print("City:", city)
+
+
+details(age=20, city="Hyderabad", name="Naveen")'''
+#prgram for functions usig args()
+'''def add(*numbers):
+    total = 0
+
+    for i in numbers:
+        total += i
+
+    return total
+
+
+print("Sum:", add(10, 20, 30, 40))'''
+#program for functions usng lwargs()
+def details(**data):
+    for key, value in data.items():
+        print(key, ":", value)
+
+
+details(name="Naveen", age=20, city="Hyderabad")
