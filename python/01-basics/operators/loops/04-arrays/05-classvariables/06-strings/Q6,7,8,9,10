@@ -1,0 +1,37 @@
+'''string1 = input("Enter first string: ")
+string2 = input("Enter second string: ")
+
+if string1 == string2:
+    print("Strings are equal")
+
+if string1 != string2:
+    print("Strings are not equal")'''
+#program for stratswith() and endswith()
+'''text = "Python Programming.py"
+
+if text.startswith("Python"):
+    print("Starts with Python")
+
+if text.endswith(".py"):
+    print("Ends with .py")'''
+#Lexicographical Comparison
+'''string1 = input("Enter first string: ")
+string2 = input("Enter second string: ")
+
+if string1 == string2:
+    print("Both strings are equal")
+elif string1 > string2:
+    print(string1, "is greater")
+else:
+    print(string2, "is greater")'''
+#program for trim()
+'''text = "   Hello Python   "
+
+print("Before:", text)
+print("After:", text.strip())'''
+#program for replace string
+text = "I like Java"
+
+new_text = text.replace("Java", "Python")
+
+print(new_text)
