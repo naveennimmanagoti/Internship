@@ -36,3 +36,11 @@ Even numbers:
 
 Odd numbers:
 1 3 5 7 9 11 13 15 17 19 21 23 25 27 29 31 33 35 37 39 41 43 45 47 49
+
+5Question
+program for lagest number
+outout:
+Enter first number: 25
+Enter second number: 48
+Enter third number: 32
+Largest number: 48
