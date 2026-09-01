@@ -66,3 +66,9 @@ progra for palindrome number
 output:
 Enter a number: 121
 Palindrome number
+
+10 question
+program for finding even odd using if -else
+output:
+Enter a number: 24
+Even number
