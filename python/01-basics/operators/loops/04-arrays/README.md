@@ -33,3 +33,14 @@ numbers[10,20,30,40,50]
 Enter index: 2
 Enter value: 25
 Updated list: [10, 20, 25, 30, 40, 50]
+Q8
+program for minmax in given list
+numbers[10,25,5,40,15]
+output:
+Minimum: 5
+Maximum: 40
+Q9
+program to reverse list
+output:
+Original list: [10, 20, 30, 40, 50]
+Reversed list: [50, 40, 30, 20, 10]
