@@ -75,3 +75,33 @@ program for difference between max min
 numbers = [10, 20, 5, 40, 30]
 output:
 Difference: 35
+Q16
+program for specific elements
+numbers = [10, 12, 15, 23, 30]
+output:
+Both values are present
+Q17
+program for unique elements
+numbers = [10, 20, 10, 30, 20, 40]
+output:
+Unique elements: [30, 40]
+Q18
+program for frquency count
+numbers = [10, 20, 10, 30, 20, 10]
+output:
+10 : 3
+20 : 2
+10 : 3
+30 : 1
+20 : 2
+10 : 3
+Q19
+program for sorting
+numbers = [30, 10, 50, 20, 40]
+output:
+Sorted list: [10, 20, 30, 40, 50]
+Q20 program for merge two lists without duplicates
+list1 = [10, 20, 30]
+list2 = [20, 30, 40, 50]
+output:
+Merged list: [10, 20, 30, 40, 50]
