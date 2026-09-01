@@ -1,0 +1,118 @@
+'''class A:
+    def common(self):
+        print("Common method of A")
+
+
+class B(A):
+    def common(self):
+        print("Common method of B")
+
+
+class C(B):
+    def common(self):
+        print("Common method of C")
+
+
+# Superclass reference
+a = B()
+a.common()
+
+a = C()
+a.common()'''
+#program for access parent method
+'''class A:
+    def common(self):
+        print("Common method of A")
+
+
+class B(A):
+    def common(self):
+        super().common()
+        print("Common method of B")
+
+
+class C(B):
+    def common(self):
+        super().common()
+        print("Common method of C")
+
+
+b = B()
+b.common()
+
+print()
+
+c = C()
+c.common()'''
+#6program for instance variable
+'''class A:
+    def __init__(self):
+        self.value = "Value of A"
+
+
+class B(A):
+    def __init__(self):
+        self.value = "Value of B"
+
+
+class C(B):
+    def __init__(self):
+        self.value = "Value of C"
+
+
+a = A()
+b = B()
+c = C()
+
+print("A object:", a.value)
+print("B object:", b.value)
+print("C object:", c.value)
+
+# Superclass reference
+ref = B()
+print("Superclass reference:", ref.value)
+
+ref = C()
+print("Superclass reference:", ref.value)'''
+#program for method call order
+'''class A:
+    def __init__(self):
+        print("Constructor of A")
+
+
+class B(A):
+    def __init__(self):
+        super().__init__()
+        print("Constructor of B")
+
+
+class C(B):
+    def __init__(self):
+        super().__init__()
+        print("Constructor of C")
+
+
+c = C()'''
+#program for real world example
+class Vehicle:
+    def start_engine(self):
+        print("Vehicle engine starts")
+
+
+class Car(Vehicle):
+    def start_engine(self):
+        print("Car engine starts")
+
+
+class ElectricCar(Car):
+    def start_engine(self):
+        print("Electric car starts silently")
+
+
+v = Vehicle()
+c = Car()
+e = ElectricCar()
+
+v.start_engine()
+c.start_engine()
+e.start_engine()
