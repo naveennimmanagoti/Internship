@@ -48,3 +48,9 @@ Largest number: 48
 6Question
 program for even numbers using while loop
 output:10 12 14 16 18 20
+
+7.Question
+program for armstrong number
+output:
+Enter a number: 153
+Armstrong number
