@@ -1,0 +1,33 @@
+#a = 'Hello'
+#b = "World"
+#c = '''Python Programming'''
+
+'''print(a)
+print(b)
+print(c)'''
+#program for string cancatenation
+'''a = "Hello"
+b = "World"
+
+c = a + " " + b
+
+print(c)'''
+#program for string length
+'''text = "Python"
+
+length = len(text)
+
+print("Length:", length)'''
+#program for substring
+'''text = "Python Programming"
+
+print(text[0:6])'''
+#program for search in string
+text = "Python Programming"
+
+position = text.find("Program")
+
+if position != -1:
+    print("Found at position:", position)
+else:
+    print("Substring not found")
