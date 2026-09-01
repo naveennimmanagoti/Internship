@@ -92,3 +92,7 @@ Enter a number: 5
 5 x 8 = 40
 5 x 9 = 45
 5 x 10 = 50
+13Q
+program for counting numbers
+output:Enter a number: 12345
+Number of digits: 5
