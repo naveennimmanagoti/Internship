@@ -1,0 +1,66 @@
+'''class BankAccount:
+    def __init__(self, account_holder, balance):
+        self.account_holder = account_holder
+        self.balance = balance
+
+    def deposit(self, amount):
+        self.balance += amount
+        print("Deposited:", amount)
+
+    def withdraw(self, amount):
+        if amount <= self.balance:
+            self.balance -= amount
+            print("Withdrawn:", amount)
+        else:
+            print("Insufficient balance")
+
+    def display(self):
+        print("Account Holder:", self.account_holder)
+        print("Balance:", self.balance)
+
+
+account = BankAccount("Naveen", 5000)
+
+account.deposit(1000)
+account.withdraw(2000)
+account.display()'''
+#6 program for intenal variables
+'''class Student:
+    def __init__(self):
+        self.name = "Naveen"
+        self._age = 20
+
+s = Student()
+
+print("Name:", s.name)
+print("Age:", s._age)'''
+#7 program for computed property
+'''class Rectangle:
+    def __init__(self, length, width):
+        self.length = length
+        self.width = width
+
+    @property
+    def area(self):
+        return self.length * self.width
+
+
+r = Rectangle(10, 5)
+
+print("Area:", r.area)'''
+#8program for password validation
+class Password:
+    def __init__(self, password):
+        self.password = password
+
+    def validate(self):
+        if len(self.password) < 8:
+            print("Password must be at least 8 characters")
+        elif not any(i.isdigit() for i in self.password):
+            print("Password must contain a number")
+        else:
+            print("Valid password")
+
+
+p = Password("Python123")
+p.validate()
