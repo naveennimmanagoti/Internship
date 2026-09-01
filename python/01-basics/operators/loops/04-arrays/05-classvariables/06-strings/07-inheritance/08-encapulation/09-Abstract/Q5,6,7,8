@@ -1,0 +1,96 @@
+'''from abc import ABC, abstractmethod
+
+class Animal(ABC):
+
+    @abstractmethod
+    def sound(self):
+        pass
+
+    def message(self):
+        print("This is a normal method")
+
+
+# Try to create object of abstract class
+a = Animal()'''
+#program for multiple abstract methods
+'''from abc import ABC, abstractmethod
+
+class Animal(ABC):
+
+    @abstractmethod
+    def sound(self):
+        pass
+
+    @abstractmethod
+    def eat(self):
+        pass
+
+
+class Dog(Animal):
+
+    def sound(self):
+        print("Dog barks")
+
+    def eat(self):
+        print("Dog eats")
+
+
+d = Dog()
+
+d.sound()
+d.eat()'''
+#program for ral world example
+'''from abc import ABC, abstractmethod
+
+class Shape(ABC):
+
+    @abstractmethod
+    def area(self):
+        pass
+
+    def display(self):
+        print("This is a shape")
+
+
+class Circle(Shape):
+
+    def area(self):
+        print("Area of Circle:", 3.14 * 5 * 5)
+
+
+class Rectangle(Shape):
+
+    def area(self):
+        print("Area of Rectangle:", 10 * 5)
+
+
+c = Circle()
+r = Rectangle()
+
+c.display()
+c.area()
+
+r.display()
+r.area()'''
+#program for [artial implementation
+from abc import ABC, abstractmethod
+
+class Animal(ABC):
+
+    @abstractmethod
+    def sound(self):
+        pass
+
+    @abstractmethod
+    def eat(self):
+        pass
+
+
+class Dog(Animal):
+
+    def sound(self):
+        print("Dog barks")
+
+
+# Try to create object
+d = Dog()
