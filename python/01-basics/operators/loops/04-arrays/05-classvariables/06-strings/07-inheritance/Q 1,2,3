@@ -1,0 +1,134 @@
+'''class A:
+    pass
+
+
+class B(A):
+    pass
+
+
+class C(B):
+    pass
+#object creation
+a = A()
+b = B()
+c = C()'''
+#2
+'''class A:
+    def a_method1(self):
+        print("Method 1 of Class A")
+
+    def a_method2(self):
+        print("Method 2 of Class A")
+
+    def common(self):
+        print("Common method of Class A")
+
+
+class B(A):
+    def b_method1(self):
+        print("Method 1 of Class B")
+
+    def b_method2(self):
+        print("Method 2 of Class B")
+
+    def common(self):
+        print("Common method of Class B")
+
+
+class C(B):
+    def c_method1(self):
+        print("Method 1 of Class C")
+
+    def c_method2(self):
+        print("Method 2 of Class C")
+
+    def common(self):
+        print("Common method of Class C")
+
+
+a = A()
+b = B()
+c = C()
+
+print("Class A:")
+a.a_method1()
+a.a_method2()
+a.common()
+
+print("\nClass B:")
+b.a_method1()
+b.b_method1()
+b.b_method2()
+b.common()
+
+print("\nClass C:")
+c.a_method1()
+c.b_method1()
+c.c_method1()
+c.c_method2()
+c.common()'''
+#3
+class A:
+    def a_method1(self):
+        print("Method 1 of Class A")
+
+    def a_method2(self):
+        print("Method 2 of Class A")
+
+    def common(self):
+        print("Common method of Class A")
+
+
+class B(A):
+    def b_method1(self):
+        print("Method 1 of Class B")
+
+    def b_method2(self):
+        print("Method 2 of Class B")
+
+    def common(self):
+        print("Common method of Class B")
+
+
+class C(B):
+    def c_method1(self):
+        print("Method 1 of Class C")
+
+    def c_method2(self):
+        print("Method 2 of Class C")
+
+    def common(self):
+        print("Common method of Class C")
+
+
+# Creating objects
+a = A()
+b = B()
+c = C()
+
+
+# Class A methods
+print("Class A Methods:")
+a.a_method1()
+a.a_method2()
+a.common()
+
+
+# Class B methods
+print("\nClass B Methods:")
+b.a_method1()
+b.a_method2()
+b.b_method1()
+b.b_method2()
+b.common()
+
+
+# Class C methods
+print("\nClass C Methods:")
+c.a_method1()
+c.a_method2()
+c.b_method1()
+c.b_method2()
+c.c_method1()
+c.c_method2()
+c.common()
