@@ -26,3 +26,14 @@ After modifying:
 s1 name: Kiran
 s2 name: Rahul
 College: ABC College
+Q6
+program for shared counter
+output:
+Total students: 3
+Q7
+program for configuration setting
+output:
+Python Basics
+Python Basics
+Data Analytics
+Data Analytics
