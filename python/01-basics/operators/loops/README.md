@@ -54,3 +54,9 @@ program for armstrong number
 output:
 Enter a number: 153
 Armstrong number
+
+8Question
+program for prime number
+outout:
+Enter a number: 17
+Prime number
