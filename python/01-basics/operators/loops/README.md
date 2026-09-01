@@ -72,3 +72,9 @@ program for finding even odd using if -else
 output:
 Enter a number: 24
 Even number
+
+11.Q
+program for male or female
+output:
+Enter M or F: M
+Male
