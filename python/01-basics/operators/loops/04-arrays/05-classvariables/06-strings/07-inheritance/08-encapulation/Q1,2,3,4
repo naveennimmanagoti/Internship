@@ -1,0 +1,70 @@
+'''class Student:
+    def set_values(self, name, age):
+        self.name = name
+        self.age = age
+
+    def get_values(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+
+s = Student()
+
+s.set_values("Naveen", 20)
+s.get_values()'''
+#program for validation using methods
+'''class Student:
+    def set_values(self, name, age):
+        self.name = name
+
+        if age > 0:
+            self.age = age
+        else:
+            print("Invalid age")
+
+    def get_values(self):
+        print("Name:", self.name)
+        print("Age:", self.age)
+
+
+s = Student()
+
+s.set_values("Naveen", 20)
+s.get_values()'''
+#progrm for prperty decorator
+'''class Student:
+    def __init__(self, name, age):
+        self.name = name
+        self.age = age
+
+    @property
+    def age(self):
+        return self._age
+
+    @age.setter
+    def age(self, value):
+        if value > 0:
+            self._age = value
+        else:
+            print("Invalid age")
+
+
+s = Student("Naveen", 20)
+
+print("Name:", s.name)
+print("Age:", s.age)
+
+s.age = -5'''
+#program for read only propety
+class Employee:
+    def __init__(self, id):
+        self._id = id
+
+    @property
+    def id(self):
+        return self._id
+
+
+e = Employee(101)
+
+print("Employee ID:", e.id)
