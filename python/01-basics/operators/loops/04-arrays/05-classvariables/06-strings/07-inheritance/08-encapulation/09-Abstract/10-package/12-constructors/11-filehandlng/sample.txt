@@ -1,0 +1,3 @@
+Hello Python Programming
+Welcome to File Handling
+Python is easy to learn
