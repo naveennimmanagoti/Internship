@@ -25,3 +25,26 @@ Q5
 program for function that raises an exception
 output:
 Error: Something went wrong
+Q6
+program for create own exception
+output:
+Enter withdrawal amount: 1500
+Insufficient balance
+Q7
+program for using finally keyword
+output:
+File not found
+Q8
+program for file not found
+output:
+File does not exist
+Q9
+program for type error
+ number = 10
+    text = "Hello"
+    output:
+    Cannot add a number and a string
+Q10
+program for attribute error
+output:
+Attribute does not exist
