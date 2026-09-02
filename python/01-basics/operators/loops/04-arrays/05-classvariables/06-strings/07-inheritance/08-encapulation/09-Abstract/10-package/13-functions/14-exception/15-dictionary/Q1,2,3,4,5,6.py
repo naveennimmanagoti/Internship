@@ -129,7 +129,7 @@ if student_id in students:
 else:
     print("Student ID does not exist")'''
 #3 program to count entries
-students = {
+'''students = {
     101: "Naveen",
     102: "Rahul",
     103: "Ravi",
@@ -137,4 +137,35 @@ students = {
     105: "Suresh"
 }
 
-print("Total students:", len(students))
+print("Total students:", len(students))'''
+#4 program to merge two dictionaries
+'''students1 = {
+    101: "Naveen",
+    102: "Rahul"
+}
+
+students2 = {
+    103: "Ravi",
+    104: "Kiran"
+}
+
+students1.update(students2)
+
+print(students1)'''
+#5 program for dictionary comprehension
+'''numbers = [1, 2, 3, 4, 5]
+
+squares = {n: n * n for n in numbers}
+
+print(squares)'''
+#6 program to reverse dictionary
+students = {
+    101: "Naveen",
+    102: "Rahul",
+    103: "Ravi",
+    104: "Kiran"
+}
+
+reverse = {value: key for key, value in students.items()}
+
+print(reverse)
