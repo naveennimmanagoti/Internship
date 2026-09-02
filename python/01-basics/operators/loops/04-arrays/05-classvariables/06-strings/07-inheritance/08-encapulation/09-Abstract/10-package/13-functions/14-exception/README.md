@@ -48,3 +48,29 @@ Q10
 program for attribute error
 output:
 Attribute does not exist
+Q11
+program for index error
+numbers = [10, 20, 30]
+output:
+Invalid index
+Q12
+program for use else block
+a = 10
+b = 2
+output:
+Result: 5.0
+Q13
+program for logging errors
+output:
+Error logged successfully
+Q14
+program for input validation sysytem
+output:
+Enter your age: abc
+Please enter a valid number
+
+Enter your age: -5
+Age must be greater than 0
+
+Enter your age: 20
+Valid age: 20
