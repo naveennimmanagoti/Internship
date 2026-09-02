@@ -41,7 +41,7 @@ print(data)
 
 file.close()'''
 #program for read frm specific index
-'''file = open("sample.txt", "r")
+file = open("sample.txt", "r")
 
 file.seek(5)
 
@@ -49,7 +49,7 @@ data = file.read(10)
 
 print(data)
 
-file.close()'''
+file.close()
 #program for check file permisions
 '''import os
 
@@ -93,7 +93,7 @@ destination.close()
 
 print("File copied successfully")'''
 #programfor append data with timestamp
-from datetime import datetime
+'''from datetime import datetime
 
 text = input("Enter text: ")
 
@@ -105,4 +105,4 @@ file.write("\n" + text + " - " + str(current_time))
 
 file.close()
 
-print("Data appended successfully")
+print("Data appended successfully")'''
